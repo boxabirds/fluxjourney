@@ -2,7 +2,7 @@
     import TopNav from '$lib/components/TopNav.svelte';
     import MainPanel from '$lib/components/MainPanel.svelte';
     import ImagineBar from '$lib/components/ImagineBar.svelte';
-    import BottomNav from '$lib/components/BottomNav.svelte';
+    import GlobalNav from '$lib/components/GlobalNav.svelte';
   
     let innerWidth; // Declare the variable to bind to window.innerWidth
   </script>
@@ -29,5 +29,5 @@
   {/if}
   
   <ImagineBar />
-  <BottomNav />
+  <GlobalNav />
   
