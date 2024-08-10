@@ -1,0 +1,23 @@
+/* src/app.css */
+@media (max-width: 636px) {
+    /* Mobile styles */
+    .nav-bar {
+      display: flex;
+      justify-content: space-between;
+    }
+    .main-panel {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 637px) {
+    /* Desktop styles */
+    .nav-bar {
+      flex-direction: column;
+    }
+    .main-panel {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
